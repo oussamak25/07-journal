@@ -1,0 +1,28 @@
+
+
+
+$theme-colors: (
+  "primary":    #455845,
+  "secondary":  #5d9e5d,
+  "success":    #ccbc91,
+  "info":       #0d0413,
+  "warning":    #455845,
+  "danger":     #4d4558,
+  "light":      #455845,
+  "dark":       #455845,
+);
+
+
+/* para añdir scss primero instalamos bootstrap, despues creamos una carpeta stles y dentro añadimos
+los ficheros de estilos necesarios */
+
+
+/* con la siguiente importacion lo que conseguimos es importar desde la carpeta nodes
+los archivos necesarios de boostraap para usar scss */
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+//clase credaa por nosotros y la podemos usar encualquier ubicaciones
+//l oque hace esta clase es que cuento pasemo el ranton por encima cambie el cursor al pointer
+.pointer{
+  cursor: pointer;
+}
